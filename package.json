@@ -1,0 +1,24 @@
+{
+  "name": "personal-webiste-template",
+  "version": "1.0.0",
+  "description": "Basic HTML5 template meant to be used as a starting point for student's personal website submission.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "pushstate-server": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/pushstate-server . 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iExperience/personal-webiste-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iExperience/personal-webiste-template/issues"
+  },
+  "homepage": "https://github.com/iExperience/personal-webiste-template#readme"
+}
