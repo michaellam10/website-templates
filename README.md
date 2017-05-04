@@ -6,8 +6,6 @@ Assuming you have created your [cloud9](https://c9.io/) account and are signed i
 
 ![img](screens/step1.png)
 
-## Getting Started
-
 ## Step 2 - Clone iXperience's personal website template.
 
 Once you click the following, you will be presented with a form. Make sure to give your workspace a name such as "Personal Website". The second step simply asks you if you would like your workspace to be public or private. This is up to you, but public will be fine for this. Next, you should see an optional input with the title: "Clone from Git or Mercurial URL (optional)". Go ahead and paste the following URL in there:
