@@ -223,7 +223,9 @@ header {
     height: 35px;
 }
 
-
+.about {
+    margin-bottom: 50px;
+}
 
 .button:hover {
     background-color: rgba(255,255,255,0.6);
@@ -423,6 +425,10 @@ input {
     color: inherit;
 }
 
+.location h2 {
+    margin-top: 0;
+}
+
 ::-webkit-input-placeholder { /* Chrome */
   color: #B3B3B3;
   text-align: left;
@@ -443,4 +449,57 @@ input {
 :-moz-placeholder { /* Firefox 4 - 18 */
   color: red;
   opacity: 1;
+}
+
+.staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.avatar {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 200px;
+    
+}
+
+#old-man {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/eb/36/aa/eb36aab30a2de2c3440e091319d602c8.jpg");
+    background-size: cover;
+}
+
+#cool-hair {
+    background-image: url("https://format-com-cld-res.cloudinary.com/image/private/s--O0cGgbcf--/c_limit,g_center,h_900,w_65535/a_auto,fl_keep_iptc.progressive,q_95/v1/f9b601050fae6f43bb148cea2be026d6/DSC_1166.jpg");
+    background-size: cover;
+}
+
+#stern-look {
+    background-image: url("http://dustinaksland.com/library/uploads/2014/03/9_Dustin_Aksland_Gregory_Crewdson_Portraits.jpg");
+    background-size: cover;
+}
+
+#text {
+    border: solid 2px black;
+}
+
+.hiring {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hiring h2 {
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.apply-button {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
