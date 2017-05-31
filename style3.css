@@ -40,7 +40,6 @@ header {
     letter-spacing: 1px;
 }
 
-
 .fa-bars {
     margin: 40px;
     width: 50px;
@@ -51,23 +50,19 @@ header {
     width: 50px;
 }
 
+.header-text .line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .introduction {
     color: black;
     text-align: center;
-    width: 550px;
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
-.introduction hr {
-    color: black;
-    background-color: black;
-    height: 2px;
-    border: none;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
 .more button {
     background-color: rgba(0,0,0,0);
@@ -237,14 +232,14 @@ header {
     border: solid 2px black;
 }
 
-.about-us, .why-choose-us, .get-in-touch {
+.about-us, .why-choose-us, .get-in-touch, .introduction {
     text-align: center;
     margin: 50px 250px;
 }
 
-.about-us .line, .why-choose-us .line, .get-in-touch .line{
-    margin-top: 25px;
-    margin-bottom: 25px;
+.about-us .line, .why-choose-us .line, .get-in-touch .line, .introduction .line {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .quote {
@@ -334,6 +329,12 @@ input {
     float: right;
 }
 
+.send:hover, .more-info:hover {
+    border: solid 2px white;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
 .logo {
     width: 50px;
     height: 50px;
@@ -396,4 +397,50 @@ input {
     font-weight: 600;
 }
 
+.social-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
 
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa a {
+    color: inherit;
+}
+
+.fa:hover {
+    color: #075D95;
+}
+.icon a {
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #B3B3B3;
+  text-align: left;
+  font-size: 11px;
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  padding-left: 10px;
+  padding-top: 10px;
+  
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: red;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: red;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: red;
+  opacity: 1;
+}
