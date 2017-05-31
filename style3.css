@@ -1,0 +1,399 @@
+html {
+    background-color: black;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    background-image: url("https://picjumbo.imgix.net/DSC03435.jpg?q=40&w=1650&sharp=30");
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.website-header {
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.fa-bars {
+    color: #898989;
+}
+
+
+.header-text {
+    text-align: center;
+    color: #DFDFDF;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.header-text h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.fa-bars {
+    margin: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.line {
+    width: 50px;
+}
+
+.introduction {
+    color: black;
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.introduction hr {
+    color: black;
+    background-color: black;
+    height: 2px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.more button {
+    background-color: rgba(0,0,0,0);
+    border: solid 2px black;
+    height: 60px;
+    width: 200px;
+    color: black;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.banner {
+    width: 1000px;
+    height: 333px;
+    background-size: contain;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/ba/Parliament_House_Canberra_Dusk_Panorama_Banner.jpg");
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio {
+    display: block;
+    position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio hr {
+    margin-top: 35px;
+}
+.portfolio ul {
+    margin-top: 35px;
+    padding: none;
+    
+}
+.portfolio li {
+    display: inline;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.gallery-images {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.thumbnails {
+    width: 100%;
+    height: 100%;
+}
+
+.help {
+    width: 1000px;
+    height: 333px;
+    background-image: url("http://www.discovernatureapps.com/images/banner_img_top.jpg");
+    background-size: cover;
+}
+.second-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.clients {
+    text-align: center;
+    background-color: #DFDFDF;
+    padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+    height: 225px;
+}
+
+.clients h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#google {
+    width: 70px;
+    height: 23px;
+}
+
+#samsung {
+    width: 70px;
+    height: 70px;
+    
+}
+
+#flickr {
+    width: 60px;
+    height: 18px;
+}
+
+#foursquare {
+    width: 90px;
+    height: 23px;
+}
+
+#pinterest {
+    width: 70px;
+    height: 53px;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.partner {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.banner-overlay button, .help-button button, .quote-button button {
+    background-color: rgba(0,0,0,0);
+    border: solid 2px white;
+    height: 60px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.more button {
+    height: 35px;
+}
+
+
+
+.button:hover {
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.about-us, .why-choose-us, .get-in-touch {
+    text-align: center;
+    margin: 50px 250px;
+}
+
+.about-us .line, .why-choose-us .line, .get-in-touch .line{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.quote {
+    background-image: url("https://static1.squarespace.com/static/5495a866e4b0fd2ebe2662cc/t/56e43f492fe13155d517a554/1457798987114/office-desk-banner.jpg?format=2500w");
+    background-size: cover;
+    height: 350px;
+}
+
+.quote-banner {
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.information {
+    display: flex;
+    
+}
+
+.location {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background-color: #DFDFDF;
+    padding: 35px 50px;
+
+}
+
+.location p {
+    margin: 4px;
+    font-size: 12px;
+}
+
+.contact {
+    width: 750px;
+    background-color: #EEEEEE;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 100px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    display: inline-block;
+}
+
+input {
+    height: 25px;
+}
+
+#name {
+    width: 210px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+}
+
+#email {
+    width: 315px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+}
+
+#message {
+    width: 550px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    border: none;
+}
+
+.contact button {
+    background-color: rgba(0,0,0,0);
+    color: black;
+    border: solid 2px black;
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.send {
+    float: right;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.name h2, .name p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.name h2 {
+    color: #B3B3B3;
+}
+
+.name p {
+    color: #898989;
+}
+
+.end {
+    background-color: #181818;
+    height: 100px;
+    padding: 75px;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.copyright p {
+    font-size: 10px;
+    color: #B3B3B3;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: inherit;
+}
+.portfolio li:hover {
+    font-weight: 600;
+}
+
+
